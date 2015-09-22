@@ -1,0 +1,198 @@
+body{
+	font-size: 12px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background:black url(images/bg2.jpg)top right;
+	height:auto;
+	position: relative; 
+	x-overflow:hidden;
+	y-overflow:hidden;
+
+}
+/*responsive button*/
+.btn-responsive {
+    white-space: normal;
+    width: 100px;
+}
+ /*home portion*/
+}
+#vid-bg video{
+	height:100vh;
+	min-width: 100%;
+}
+#bgvid{
+	min-width:100%; 
+}
+.overlay1 {
+    z-index:1;
+    display:flex;
+  	position:absolute;
+	width:100vw;
+	left:0px;
+	height:115vh;
+	top:0px;
+	opacity:.3;
+	background-color: #000;
+}
+.overlay {
+    z-index:2;
+    display:flex;
+  	position:absolute;
+	width:100vw;
+	left:0px;
+	height:115vh;
+	top:0px;
+
+}
+.overlay a h1, .overlay a span .btn-circle, .overlay a:hover{
+	color: #bbb3b3;
+	text-shadow: 0px 1px 0px #333;
+	font-size:50;
+	text-decoration:none;
+}
+
+
+.center{
+	margin:auto;
+}
+
+.btn-circle{
+	width: 70px;
+    height: 70px;
+    padding: 10px 17px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 50px;
+    color: white;
+    background: 0 0;
+    margin-left: 90px;
+}
+
+ /*scrollspy portion para sa lahi2 nga section*/
+  #profile {padding-top:60px;height:700px;color: #fff; background:url(images/bg1.jpg); margin-top:-5px;}
+  #portfolio {padding-top:50px;height:700px;color: #fff; background:url(images/bg2.jpg);}
+  #blog {padding-top:50px;height:700px;color: #fff; background:url(images/bg1.jpg);}
+  #contact {padding-top:50px;height:700px;color: #fff; background:url(images/bg2.jpg);}
+  #services {padding-top:50px;height:700px;color: #fff; background:url(images/bg1.jpg);}
+
+/*navigation bar*/
+nav {
+
+}
+
+.navbar-inverse-costume .navbar-nav>.active>a, .navbar-inverse-costume .navbar-nav>.active>a:focus, 
+.navbar-inverse-costume .navbar-nav>.active>a:hover {
+    color: transparent;
+    background-color: #fff;
+}
+
+.navbar-nav a, .overlay a{
+	color: transparent;
+	text-decoration: none;
+}
+
+
+ /*affix to stick in the specific area while scrolling*/
+.affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #F44336;
+    border-color: #fff;
+    z-index: 3;
+ }
+
+ .affix a {
+  	color: #333 !important;
+  	padding: 15px !important;
+  	-webkit-transition: all .5s ease-in-out;
+  	transition: all .5s ease-in-out;
+}
+.affix-top a {
+    padding: 25px !important;
+}
+.affix + .container-fluid {
+   padding-top: 95px;
+}
+
+
+/*profile section*/
+/*#profile img{
+  	width:15%;
+  	height:auto;
+  	border: 2px solid #fff;
+  	border-radius: 100%!important;
+  	color: white;
+}*/
+
+#profile h1, #profile p{
+	color:#262525;
+}
+#profile h1 span, #profile h4{
+	color:#bbb3b3;
+	font-weight: bold;
+}
+#profile h4{
+	margin-top:0px;
+	padding-top:0px;
+}
+#profile p{
+	font-size: 16px;
+}
+#profile p.positive{
+	background-color:#F44336;
+	font-size: 70px;
+    margin-right: -20px;
+    margin-left: -20px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    font-weight:600;
+    text-shadow:0px 1px 0px black;
+}
+#profile p.positive span#focus{
+	color:#bbb3b3;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+.ih-item.circle {	/*para mo center ang profile picture*/
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+/*portfolio section*/
+#portfolio .portfolio{
+	
+    height: 490px;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-top:50px;
+}
+.width-costome{
+	width:430px;
+	height: 405px !important;
+}
+
+/*i-hover portfolio image*/
+.ih-item.square {
+    position: relative;
+    width: 316px;
+    height: 216px;
+    border: 8px solid transparent !important; 
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.0) !important;
+}
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}

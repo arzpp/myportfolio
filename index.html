@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="font-awesome-animation/dist/font-awesome-animation.min.css">
+		<link rel="stylesheet" href="css/ihover.min.css">
+		<script src="js/jquery-2.1.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</head>
+
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="180">
+		<div class="container-fluid">
+			<div class="row" id="vid-bg">
+				<video autoplay loop poster="images/background.jpg" id="bgvid">
+					<source src="images/portfolio.mp4" type="video/mp4">
+				</video>
+				<div class="overlay1">
+					&nbsp;
+				 </div>
+				 <div class="overlay">
+			     	<a href="#profile" class="center" id="btn-double-down"><h1>Know me Better</h1>
+			        	<span class="btn-circle fa fa-angle-double-down faa-flash animated btn-responsive center"></span>
+			        </a>
+			    </div>
+			</div>
+		</div>
+
+		<nav class="navbar navbar-fixed-top navbar-inverse-costume" data-spy="affix" data-offset-top="250">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>                        
+		      </button>
+		    </div>
+		    <div>
+		      <div class="collapse navbar-collapse" id="myNavbar">
+		        <ul class="nav navbar-nav">
+		          <li><a href="#profile" class="fa fa-graduation-cap"> Profile</a></li>
+		          <li><a href="#portfolio" class="fa fa-briefcase"> Portfolio</a></li>
+		         <li><a href="#blog" class="fa fa-comment-o"> Blog</a></li>
+		         <li><a href="#contact" class="fa fa-envelope"> Contact</a></li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</nav>    
+
+		<div id="profile" class="container-fluid">
+		    <div class="ih-item circle colored effect10 bottom_to_top">
+		    	<a href="#profile">
+			        <!-- <div class="img"><img src="images/me.png" class="img-circle img-responsive center"></div> -->
+			        <div class="img"><img src="images/me.png" alt="img"></div>
+			        <div class="info">
+			        	<h3>Arcelyn Pondara</h3>
+			        	<p>Web Developer</p>
+			        </div>
+			    </a>    
+		 	</div>
+
+			<h1 class="text-center">Hi, I am <span>Arcelyn Pepito Pondara</span></h1>
+			<h4 class="text-center">Web Developer, Web Designer</h4><br/><br/><br/>
+			<p class="text-center">I have graduated with a Bachelor degree in Information Technology from University of Cebu. I am pro-active in learning new things. Designing is my passion. </p> <br/>
+		</div>
+		<div id="portfolio" class="container-fluid"> <!--portfolio section start-->
+			<h1 class="text-center">My Portfolio</h1>
+			<div class="container"><!--portfolio center section start-->
+				<div class="row portfolio">
+					<div class="col-md-4">
+						<div class="ih-item square colored effect4">
+							<a href="#portfolio"><img class="img-responsive ih-item square colored effect4" src="images/portfolio-2.jpg" alt="img">
+					  			<div class="mask1"></div>
+		     		   			<div class="mask2"></div>
+		     		   			<div class="info">
+		     		   				<h3>Heading Here</h3>
+		     		   				<p>Description goes here</p>
+		     		   			</div>
+				  			</a>
+						</div>
+						<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+					</div>
+					<div class="col-md-4">
+						<div class="ih-item square colored effect4">
+							<a href="portfolio1.html"><img class="img-responsive ih-item square colored effect4" src="images/portfolio-1.jpg" alt="img">
+								<div class="mask1"></div>
+		     		   			<div class="mask2"></div>
+		     		   			<div class="info">
+		     		   				<h3>View Site</h3>
+		     		   				<p>click here</p>
+		     		   			</div>	
+							</a>
+						</div>
+						<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+					</div>
+					<div class="col-md-4">
+						<div class="ih-item square colored effect4">
+				  			<a href="#"><img class="img-responsive ih-item square colored effect4" src="images/portfolio-2.jpg" alt="img">
+					  			<div class="mask1"></div>
+		     		   			<div class="mask2"></div>
+		     		   			<div class="info">
+		     		   				<h3>Heading Here</h3>
+		     		   				<p>Description goes here</p>
+		     		   			</div>
+				  			</a>
+				  		</div>
+				  		<div class="strokeme">
+						    This text should have a stroke in some browsers
+						</div>
+			  		</div>
+				</div>
+			</div><!--portfolio center section end-->
+		</div><!--portfolio section end-->
+	
+		<div id="blog" class="container-fluid">  <!--Blog Section Start -->
+			<br/><br/>
+			<div class="container">  <!--Blog container Start -->
+				<div class="nav nav-pills">  <!--Blog Tab-navbar Start -->
+					<div class="row">
+					  	<div class="btn-group btn-group-justified">
+						  <a href="#blog1" class="btn btn-primary" data-toggle="pill">Travel</a>
+						  <a href="#blog2" class="btn btn-primary" data-toggle="pill">Health</a>
+						  <a href="#blog3" class="btn btn-primary" data-toggle="pill">Food</a>
+						  <a href="#blog4" class="btn btn-primary" data-toggle="pill">DIY</a>
+						  <a href="#blog5" class="btn btn-primary" data-toggle="pill">Fashion</a>
+						</div>	
+					</div>	
+				</div>  <!--Blog Tab-navbar End -->
+				<div class="tab-content">  <!--Blog Tab Content Start -->
+					<div id="blog1" class="tab-pane fade in active">  <!--Blog1 Content Start -->
+						<div class="row">
+							<div class="col-md-2 col-sm-6">
+								<div class="thumbnail">
+									<img src="images/sample.jpg" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-6">
+								<div class="thumbnail">
+									<img src="images/sample.jpg" class="img-responsive">
+								</div>
+							</div>
+						</div>
+					</div>  <!--Blog1 Content End -->
+									
+					<div id="blog2" class="tab-pane fade">  <!--Blog2 Content Start -->
+						<div class="row">
+							<div class="col-md-2 col-sm-6">
+								<div class="thumbnail">
+									<img src="images/sample.jpg" class="img-responsive">
+									<div class="caption">
+										<h4>Health</h4>
+										<p>Try to scroll this section and look at the navigation bar while scrolling!</p>
+										<p>
+											<a href="#blog" class="btn btn-success">Learn More...</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>  <!--Blog2 Content End -->
+				</div>  <!--Blog Tab Content End -->
+			</div>  <!--Blog container End -->
+		</div>  <!--Blog Section End -->
+
+		<div id="contact" class="container-fluid">
+		  <h1>Contact</h1>
+		  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+		  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+		</div>
+		<div id="services" class="container-fluid">
+		  <h1>Services</h1>
+		  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+		  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+		</div>
+
+
+
+		<script>
+			//e hide ug show ang footer sa profile
+			var lastScrollTop = 0;
+			$('.portfolio').scroll(function(){
+			  alert('me');
+			});
+
+			// pag animate sa button sa home para mo slide
+			$('.btn-circle').click(function(){
+				event.preventDefault();
+				$("html, body").animate({scrollTop:screen.height}, '500', 'swing');
+			});
+
+			//hover portfolio image
+			$('#p1').contenthover({
+			    overlay_background:'#000',
+			    overlay_opacity:0.8,
+			    effect:'slide',
+			    slide_speed:500,
+			    slide_direction:'left',
+			    onshow:function(){
+			        $('<div>Hover element shown</div>').appendTo($('#d6_log'));
+			    },
+			    onhide:function(){
+			        $('<div>Hover element hidden</div>').appendTo($('#d6_log'));
+			    }
+			});
+		</script>>
+
+		
+	</body>
+</html>

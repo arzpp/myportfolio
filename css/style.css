@@ -1,0 +1,12 @@
+body{
+	background-image:url(images/me.png)no-repeat;
+	font-size: 12px;
+	height: 100%;
+}
+
+.height-responsive {
+	
+    width: auto;
+    display:block;
+    height: 100%;
+}
