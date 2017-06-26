@@ -1,7 +1,7 @@
 
 @font-face {	/*import ug font style*/
     font-family: 'signature'; 
-    src: url('fonts/signature.ttf'); /*URL to font*/
+	src: url('fonts/signature.ttf') format('truetype');
 }
 
 @font-face {	/*import ug font style*/
@@ -10,7 +10,7 @@
 }
 @font-face {	/*import ug font style*/
     font-family: 'Brotherhood'; 
-    src: url('fonts/Brotherhood.ttf'); /*URL to font*/
+	src: url('fonts/Brotherhood.ttf') format('truetype');
 }
 
 body{
