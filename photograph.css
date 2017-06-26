@@ -6,7 +6,7 @@
 
 @font-face {	/*import ug font style*/
     font-family: 'segan'; 
-    src: url('fonts/segan.ttf'); /*URL to font*/
+	src: url('fonts/segan.ttf') format('truetype');
 }
 @font-face {	/*import ug font style*/
     font-family: 'Brotherhood'; 
