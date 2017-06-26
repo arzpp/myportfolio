@@ -72,7 +72,7 @@
 	 * @public
 	 */
 	Lazy.Defaults = {
-		lazyLoad: true
+		lazyLoad: false
 	};
 
 	/**
