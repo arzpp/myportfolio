@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 05/10/2016 08:13
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-balance:before { content: "\f100"; }
+.flaticon-barbell:before { content: "\f101"; }
+.flaticon-basketball-jersey:before { content: "\f102"; }
+.flaticon-bench:before { content: "\f103"; }
+.flaticon-boxing-shorts:before { content: "\f104"; }
+.flaticon-buck:before { content: "\f105"; }
+.flaticon-centimeter:before { content: "\f106"; }
+.flaticon-chest:before { content: "\f107"; }
+.flaticon-chest-1:before { content: "\f108"; }
+.flaticon-chest-expander:before { content: "\f109"; }
+.flaticon-dumbbell:before { content: "\f10a"; }
+.flaticon-dumbbell-1:before { content: "\f10b"; }
+.flaticon-exercise-bands:before { content: "\f10c"; }
+.flaticon-fitness:before { content: "\f10d"; }
+.flaticon-fitness-1:before { content: "\f10e"; }
+.flaticon-fitness-2:before { content: "\f10f"; }
+.flaticon-gloves:before { content: "\f110"; }
+.flaticon-grip:before { content: "\f111"; }
+.flaticon-hand-grip:before { content: "\f112"; }
+.flaticon-headgear:before { content: "\f113"; }
+.flaticon-hydratation:before { content: "\f114"; }
+.flaticon-jumping-rope:before { content: "\f115"; }
+.flaticon-leg:before { content: "\f116"; }
+.flaticon-medicine-ball:before { content: "\f117"; }
+.flaticon-pills:before { content: "\f118"; }
+.flaticon-pills-1:before { content: "\f119"; }
+.flaticon-punching-bag:before { content: "\f11a"; }
+.flaticon-punching-ball:before { content: "\f11b"; }
+.flaticon-punching-ball-1:before { content: "\f11c"; }
+.flaticon-rings:before { content: "\f11d"; }
+.flaticon-scale:before { content: "\f11e"; }
+.flaticon-shower:before { content: "\f11f"; }
+.flaticon-sport-bag:before { content: "\f120"; }
+.flaticon-step:before { content: "\f121"; }
+.flaticon-stopwatch:before { content: "\f122"; }
+.flaticon-treadmill:before { content: "\f123"; }
+.flaticon-treadmill-1:before { content: "\f124"; }
+.flaticon-treadmill-2:before { content: "\f125"; }
+.flaticon-trellis:before { content: "\f126"; }
+.flaticon-watch:before { content: "\f127"; }
+.flaticon-water-bottle:before { content: "\f128"; }
+.flaticon-weight:before { content: "\f129"; }
+.flaticon-weight-1:before { content: "\f12a"; }
+.flaticon-weight-2:before { content: "\f12b"; }
+.flaticon-weight-3:before { content: "\f12c"; }
+.flaticon-weight-bar:before { content: "\f12d"; }
+.flaticon-weights:before { content: "\f12e"; }
+.flaticon-wheel:before { content: "\f12f"; }
+.flaticon-whistle:before { content: "\f130"; }
+.flaticon-workout:before { content: "\f131"; }
+    
+    $font-Flaticon-balance: "\f100";
+    $font-Flaticon-barbell: "\f101";
+    $font-Flaticon-basketball-jersey: "\f102";
+    $font-Flaticon-bench: "\f103";
+    $font-Flaticon-boxing-shorts: "\f104";
+    $font-Flaticon-buck: "\f105";
+    $font-Flaticon-centimeter: "\f106";
+    $font-Flaticon-chest: "\f107";
+    $font-Flaticon-chest-1: "\f108";
+    $font-Flaticon-chest-expander: "\f109";
+    $font-Flaticon-dumbbell: "\f10a";
+    $font-Flaticon-dumbbell-1: "\f10b";
+    $font-Flaticon-exercise-bands: "\f10c";
+    $font-Flaticon-fitness: "\f10d";
+    $font-Flaticon-fitness-1: "\f10e";
+    $font-Flaticon-fitness-2: "\f10f";
+    $font-Flaticon-gloves: "\f110";
+    $font-Flaticon-grip: "\f111";
+    $font-Flaticon-hand-grip: "\f112";
+    $font-Flaticon-headgear: "\f113";
+    $font-Flaticon-hydratation: "\f114";
+    $font-Flaticon-jumping-rope: "\f115";
+    $font-Flaticon-leg: "\f116";
+    $font-Flaticon-medicine-ball: "\f117";
+    $font-Flaticon-pills: "\f118";
+    $font-Flaticon-pills-1: "\f119";
+    $font-Flaticon-punching-bag: "\f11a";
+    $font-Flaticon-punching-ball: "\f11b";
+    $font-Flaticon-punching-ball-1: "\f11c";
+    $font-Flaticon-rings: "\f11d";
+    $font-Flaticon-scale: "\f11e";
+    $font-Flaticon-shower: "\f11f";
+    $font-Flaticon-sport-bag: "\f120";
+    $font-Flaticon-step: "\f121";
+    $font-Flaticon-stopwatch: "\f122";
+    $font-Flaticon-treadmill: "\f123";
+    $font-Flaticon-treadmill-1: "\f124";
+    $font-Flaticon-treadmill-2: "\f125";
+    $font-Flaticon-trellis: "\f126";
+    $font-Flaticon-watch: "\f127";
+    $font-Flaticon-water-bottle: "\f128";
+    $font-Flaticon-weight: "\f129";
+    $font-Flaticon-weight-1: "\f12a";
+    $font-Flaticon-weight-2: "\f12b";
+    $font-Flaticon-weight-3: "\f12c";
+    $font-Flaticon-weight-bar: "\f12d";
+    $font-Flaticon-weights: "\f12e";
+    $font-Flaticon-wheel: "\f12f";
+    $font-Flaticon-whistle: "\f130";
+    $font-Flaticon-workout: "\f131";
