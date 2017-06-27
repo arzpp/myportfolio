@@ -463,7 +463,7 @@ body {
 			font-size: 40px;
 		}
 		#category{
-			padding-top: 130px;
+			padding-top: 160px;
 		}
 		#owl-carousel .box h4, #owl-carousel .box button{
 			font-size: 14px;
@@ -493,7 +493,7 @@ body {
 			font-size: 50px;
 		}
 		#category{
-			padding-top: 130px;
+			padding-top: 160px;
 		}
 		#owl-carousel .box h1{
 			font-size: 60px;
@@ -529,6 +529,9 @@ body {
 		.grid .item-floral {
 			width: 284px;
 		}
+		#category{
+			padding-top: 180px;
+		}
 	}
 
     /* Extra Small Devices, Phones */ 
@@ -554,6 +557,9 @@ body {
 		#home .banner_caption h2 {
 			font-size: 55px;
 		}
+		#category{
+			padding-top: 150px;
+		}
 	}
 	@media only screen and (max-width : 550px){
 		.filters .ui-group, #contact .xs-w100{
@@ -566,6 +572,9 @@ body {
 		}
 		#owl-carousel .box h4, #owl-carousel .box button{
 			font-size: 18px;
+		}
+		#category {
+			padding-top: 100px;
 		}
 	}
 	@media only screen and (min-width : 700px){
@@ -600,7 +609,7 @@ body {
 			margin: 0 auto;
 		}
 		#category{
-			padding-top: 50px;
+			padding-top: 70px;
 		}
 		#owl-carousel .box h1{
 			font-size: 50px;
