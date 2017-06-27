@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Belle's Flower Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="js/OwlCarousel2-2.2.1//owl.carousel.css">
+	<link rel="stylesheet" href="js/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" href="css/select2.min.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.easing-1.3.js"></script>  
+	<script src="js/jquery.cycle.all.js"></script>  
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.slimscroll.min.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/magnitic-popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/amazingslider.js"></script>
+	<script src="js/initslider-1.js"></script>
+	<script src="js/select2.full.min.js"></script>
+
+	<script src="js/isotope/isotope.pkgd.min.js"></script>
+
+	<link rel="stylesheet" href="css/basic_icons.css" />
+	<link rel="stylesheet" href="css/flaticon_fonts/flaticon.css"> 	
+	<link rel="stylesheet" href="flower.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="font-awesome-animation/dist/font-awesome-animation.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="js/magnitic-popup/magnific-popup.css">
+</head>
+
+<body>
+	<div class="container tab-content">
+		<!-- navigation bar start -->
+		<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#menu" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#"> 
+						<img class="img-responsive" alt="Brand" src="flower/flower_l.png" />
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav">
+						<li class="active"> <a href="#home" data-toggle="tab" class="iso_filter_none">Home</a></li>
+						<li> <a href="#category" data-toggle="tab">Categories</a></li>
+						<li> <a href="#about" data-toggle="tab"  class="iso_filter_none">About Us</a></li>
+						<li> <a href="#contact" data-toggle="tab"  class="iso_filter_none">Email Us</a></li>
+					</ul>
+				</div> 
+			</div> 
+			<div class="container filters">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ui-group">
+					<label class="filters-select" for="id_label_single">
+						By Occasion
+						<select class="select2 form-control" data-filter-group="occasion">
+							<option value="*">Any</option>
+							<option value=".wedding">Wedding</option>
+							<option value=".thanksgiving">Thanksgiving</option>
+							<option value=".birthday">Birthday</option>
+							<option value=".sympathy">Sympathy</option>
+							<option value=".anniversary">Anniversary</option>
+						</select>
+					</label>
+				</div>	
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ui-group">
+					<label class="filters-select" for="id_label_single">
+						By Color
+						<select class="select2 form-control" data-filter-group="color">
+							<option value="*">Any</option>
+							<option value=".red">red</option>
+							<option value=".blue">blue</option>
+							<option value=".yellow">yellow</option>
+							<option value=".white">white</option>
+							<option value=".pink">pink</option>
+							<option value=".violet">violet</option>
+						</select>
+					</label>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ui-group">
+					<label class="filters-select" for="id_label_single">
+						By Price
+						<select class="select2 form-control" data-filter-group="price">
+							<option value="*">Any</option>
+							<option value=".below600">Below 600</option>
+							<option value=".above600">Above 600</option>
+						</select>
+					</label>
+				</div>
+			</div>
+		</nav>
+		<!-- navigation bar end -->
+		
+		<section id="home" class="tab-pane fade in active">
+			<div id="owl-carousel" class="owl-carousel">
+				<div class="item">
+					<img src="flower/1.jpg" alt="carousel-item1"> 
+				</div>	
+				<div class="item"> 
+					<img src="flower/c1.jpg" alt="carousel-item2">
+					<div class="box owl1">
+						<h1>Guaranteed Fresh!</h1>        
+						<h4>Get up to 25% off!</h4>
+						<button class="btn btn-order btn-lg" role="button">Order Now</button>
+					</div>
+				</div>	
+				<div class="item">
+					<img src="flower/2.jpg" alt="carousel-item3">
+				</div>	
+				<div class="item">
+					<img src="flower/c2.jpg" alt="carousel-item4">
+					<div class="box">
+						<h1>Unique Flowers!</h1>   
+						<h4>Available now!</h4>
+						<button class="btn btn-order btn-lg" role="button">Order Now</button>
+					</div>
+				</div>
+				<div class="item">
+					<img src="flower/3.jpg" alt="carousel-item5">
+				</div>	
+				<div class="item">
+					<img src="flower/c3.jpg" alt="carousel-item6">
+					<div class="box">
+						<h1>Expert Florist!</h1>        
+						<h4>For all occasion!</h4>
+						<button class="btn btn-order btn-lg" role="button">Order Now</button>
+					</div>
+				</div>	
+				<div class="item">
+					<img src="flower/4.jpg" alt="carousel-item7">
+				</div>	
+				<div class="item">
+					<img src="flower/c4.jpg" alt="carousel-item8">
+					<div class="box">
+						<h1>Free Delivery!</h1>        
+						<h4>Every item over &#8369;500</h4>
+						<button class="btn btn-order btn-lg" role="button">Order Now</button>
+					</div>
+				</div>	
+				<div class="item">
+					<img src="flower/5.jpg" alt="carousel-item9">
+				</div>	
+				<div class="item">
+					<img src="flower/c5.jpg" alt="carousel-item10">
+					<div class="box">
+						<h1>Personalized Gift!</h1>        
+						<h4>Make her feel special!</h4>
+						<button class="btn btn-order btn-lg" role="button">Order Now</button>
+					</div>
+				</div>					
+			</div>	
+			
+			<div class="welcome"> 
+				<h1>Welcome</h1> 
+				<hr>
+				<p>Lavender's can provide you fresh flowers daily. Lorem ipsum dolor sit amet. Earum rerum facilis est laborum et expedita. Officia deserunt mollitia animi. Quisquam est, omnis iste natus perferendis doloribus asperiores repellat lorem ipsum dolor sit amet earum rerum facilis est. Dignissimos ducimus, qui nesciunt neque porro quisquam. Dolor sit aspernatur aut laborum error sit voluptatem quisquam est, omnis iste natus error sit voluptatem. Eos et iusto odio et expedita. Officia deserunt mollitia animi. Quisquam est, omnis iste natus error sit voluptatem. Eos et iusto odio dignissimos ducimus, qui nesciunt, neque porro quisquam. </p>
+			</div>
+			<div class="row"> 
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 banner">
+					<img alt="banner" src="flower/banner1.jpg">
+					<span class="banner_caption">
+						<h2>Wedding Flowers</h2> 
+						<p class="txt2">Amazing Deal</p> 
+						<button class="btn btn-order btn-sm" role="button">Learn More</button>						
+					</span>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 banner">
+					<img src="flower/banner2.jpg" alt="banner">
+					<span class="banner_caption">
+						<h2>Exclusive Bouquets</h2> 
+						<p class="txt2">Special Offer</p>	
+						<button class="btn btn-order btn-sm" role="button">Learn More</button>	
+					</span>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 banner">
+					<img src="flower/banner3.jpg" alt="banner">
+					<span class="banner_caption">
+						<h2>Romantic Flowers</h2> 
+						<p class="txt2">New Arrivals</p>	
+						<button class="btn btn-order btn-sm" role="button">Learn More</button>	
+					</span>
+				</div>
+			</div>
+		</section>
+		
+		<section id="category" class="tab-pane fade top-50">
+
+				<div class="grid">
+					<div class="item-floral above600 red white pink birthday anniversary thanksgiving">
+						<div class="floral-image"> 
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i1.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 1 <span class="pull-right small">&#8369;1400</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+				
+					<div class="item-floral below600 yellow birthday wedding sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i2.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 2 <span class="pull-right small">&#8369;580</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 red birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i3.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 3 <span class="pull-right small">&#8369;599</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white blue birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i4.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 4 <span class="pull-right small">&#8369;700</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 pink birthday wedding anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i5.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 5 <span class="pull-right small">&#8369;550</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 red birthday wedding anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i6.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 6 <span class="pull-right small">&#8369;500</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 yellow sympathy thanksgiving ">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i7.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 7 <span class="pull-right small">&#8369;480</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 blue birthday wedding sympathy anniversary thanksgiving ">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i8.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 8 <span class="pull-right small">&#8369;450</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white pink sympathy anniversary thanksgiving ">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i9.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 9 <span class="pull-right small">&#8369;950</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 white pink violet sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i10.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 10 <span class="pull-right small">&#8369;540</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 pink birthday thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i11.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 11 <span class="pull-right small">&#8369;400</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 yellow pink wedding sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i12.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 12 <span class="pull-right small">&#8369;550</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white pink violet birthday wedding sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i13.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 13 <span class="pull-right small">&#8369;580</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 yellow pink violet wedding sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i14.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 14 <span class="pull-right small">&#8369;650</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 violet birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i15.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 15 <span class="pull-right small">&#8369;1000</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 red pink wedding sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i16.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 16 <span class="pull-right small">&#8369;800</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 white pink birthday wedding anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i17.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 17 <span class="pull-right small">&#8369;550</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 yellow sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i18.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 18 <span class="pull-right small">&#8369;450</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 white birthday wedding anniversary sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i19.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 19 <span class="pull-right small">&#8369;470</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 red pink violet birthday wedding anniversary sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i20.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 20 <span class="pull-right small">&#8369;1250</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 pink violet birthday wedding thanksgiving anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i21.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 21 <span class="pull-right small">&#8369;1000</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 red sympathy wedding thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i22.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 22 <span class="pull-right small">&#8369;480</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white pink violet sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i23.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 23 <span class="pull-right small">&#8369;980</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div> 
+					</div>
+					<div class="item-floral above600 red white yellow pink violet birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i24.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 24 <span class="pull-right small">&#8369;660</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 blue birthday wedding sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i25.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 25 <span class="pull-right small">&#8369;900</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white blue wedding">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i26.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 26 <span class="pull-right small">&#8369;800</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div> 
+					</div>
+					<div class="item-floral below600 yellow birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i27.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 27 <span class="pull-right small">&#8369;400</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 pink birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i28.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 28 <span class="pull-right small">&#8369;750</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 yellow birthday wedding anniversary sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i29.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 29 <span class="pull-right small">&#8369;799</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 red pink sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i30.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 30 <span class="pull-right small">&#8369;1500</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white yellow birthday wedding anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i31.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 31 <span class="pull-right small">&#8369;800</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 violet birthday sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i32.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 32 <span class="pull-right small">&#8369;1100</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 red white sympathy">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i33.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 33 <span class="pull-right small">&#8369;400</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 yellow pink violet wedding">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i34.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 34 <span class="pull-right small">&#8369;700</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 violet birthday wedding anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i35.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 35 <span class="pull-right small">&#8369;480</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 yellow birthday">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i36.png" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 36 <span class="pull-right small">&#8369;550</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 yellow birthday anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i37.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 37 <span class="pull-right small">&#8369;400</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 blue violet wedding sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i38.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 38 <span class="pull-right small">&#8369;410</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 blue birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i39.png" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 39 <span class="pull-right small">&#8369;680</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 white pink sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i40.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 40 <span class="pull-right small">&#8369;475</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white blue sympathy anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i41.png" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 41 <span class="pull-right small">&#8369;650</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 white sympathy">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i42.png" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 42 <span class="pull-right small">&#8369;700</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 white sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i43.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 43 <span class="pull-right small">&#8369;300</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 white blue birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i44.png" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 44 <span class="pull-right small">&#8369;400</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral above600 red white birthday wedding anniversary">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i45.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 45 <span class="pull-right small">&#8369;900</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 red sympathy thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i46.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 46<span class="pull-right small">&#8369;440</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 red birthday">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i47.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 47 <span class="pull-right small">&#8369;350</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 blue birthday anniversary thanksgiving">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i48.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 48 <span class="pull-right small">&#8369;480</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+					<div class="item-floral below600 violet birthday">
+						<div class="floral-image">
+							<div class="options"> 
+								<button class="btn btn-default" title="Add to cart"><span class="fa fa-shopping-cart"></span></button>
+								<button class="btn btn-default pull-right fa-exc" title="Compare"><span class="fa fa-exchange"></span></button>
+								<button class="btn btn-default pull-right" title="Add to wish list"><span class="fa fa-heart"></span></button>
+							</div>
+							<img src="flower/i49.jpg" alt="Project Title"/>
+						</div>
+						
+						<div class="flower_caption"> 
+							<p class="flower_title">Flower 49 <span class="pull-right small">&#8369;400</span></p>
+							<p class="flower_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+						</div>
+					</div>
+				</div>
+	
+		</section>
+		<section id="about" class="tab-pane fade">
+			<div class="row">
+				<div class="col-xs-12 col-md-5 col-sm-6 col-lg-5">
+					<img src="flower/shop_pic.jpg" alt="Shop Photo" class="img-responsive p-bottom" width="100%">
+				</div>
+				<div class="txt-wrap">
+					<h3>Our Shop</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum grectetur.sem quisci ipsum gravida tortor orci ipsum grectetur. <br> <br>								
+						Lorem ipsum dolor sit ametbi sagittis, orci ipsum gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur. <br> <br>								
+						Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+				</div>
+			</div>
+
+			<div class="row about-us">
+				<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 p-bottom">
+					<h3>Our Mission</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor.</p>
+
+					<ul class="about-us-list">
+						<li class="points">Lorem ipsum dolor sit amet, conseconsectetur.</li>
+						<li class="points">Tortor orci ipsum gravida tortor.</li>
+						<li class="points">Lorem ipsum dolor sit amet.</li>
+						<li class="points">Consectetur Morbi sagittis, sem quisci gravida.</li>
+						<li class="points">Ipsum dolor sit amet, sem quisci.</li>
+					</ul>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 staff"> 
+					<div class="row">
+						<h3>Our Staff</h3>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+									<img src="flower/staff1.jpg" alt="Staff Photo" class="img-responsive" />
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+									<h4>IAN</h4>
+									<p class="excerpt">Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibu.…</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+									<img src="flower/staff2.jpg" alt="Staff Photo" class="img-responsive" />
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+									<h4>NINA</h4>
+									<p class="excerpt">Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibu.…</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+									<img src="flower/staff3.jpg" alt="Staff Photo" class="img-responsive" />
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+									<h4>PAUL</h4>
+									<p class="excerpt">Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibu.…</p>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="tab-pane fade">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 xs-w100"> 
+					<div class="shops">
+						<i class="fa fa-map-o" aria-hidden="true"></i>
+						 <h3>Address</h3>
+						 <hr>
+						<p>Level 5, 25 pitt st, US</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 xs-w100">
+					<div class="shops">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						 <h3>Phone</h3>
+						 <hr>
+						<p>4014151822</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 xs-w100">
+					<div class="shops">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						 <h3>Email</h3>
+						 <hr>
+						<p>Level 5, 25 pitt st, US</p>
+					</div>
+				</div>
+			</div>
+			<div class="row inner contact-form">
+					
+					<form id="contact-us" method="post" action="#">
+						
+						<div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+							
+							<input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+							
+							<input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+							
+							<input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+						</div>
+						
+						<div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+							
+							<textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+						</div>
+						
+						<div class="col-xs-12 text-center">
+							<button type="submit" id="submit" name="submit" class="btn btn-order btn-lg" role="button">Send Message</button>
+						</div>
+						
+						<div class="clear"></div>
+					</form>
+
+				
+			</div>
+          
+			
+		</section>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center" >
+					
+					
+					<p id="signature">Made with <i class="fa fa-heart-o color-text"></i> by <a href="#">arzio</a>.</p>
+				</div>
+			</div> <!--/.row-->
+		</div> <!--/.container-->
+	</footer>
+
+
+	
+	<script src="js/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+</body>
+</html>
+
+<script>
+	$(document).ready(function(){
+		//carousel sa hobbies section
+		$(".owl-carousel").owlCarousel({
+			//items: 3,
+			loop: true,
+			autoplay: true,
+			autoPlayTimeout: 1500,
+			autoplaySpeed: 1500,
+			responsive:{
+				0:{
+				  items:1 
+				},
+
+				480:{
+				  items:2 // from 480 to 767
+				},
+
+				768:{
+				  items:3 // from this breakpoint 678 to 959
+				}
+			}			
+		}); //NOTE: "this._core.is('busy')" in owl.carousel.js in this version has been changed coz autoplay wont work after changing tabs
+		
+		
+		
+		//smooth scrolling
+		$(".navbar a, a[href='#myPage']").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+
+			// Prevent default anchor click behavior
+			event.preventDefault();
+
+			// Store hash
+			var hash = this.hash;
+
+			// Using jQuery's animate() method to add smooth page scroll
+			// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+				}, 900, function(){
+
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+				});
+			} // End if
+		});
+		
+		
+		//select2
+		$(".select2").select2();
+		
+		
+		//category isotope
+		var $grid = $('.grid').isotope({
+			itemSelector: '.item-floral',
+			masonry: {
+				columnWidth: 50,
+				gutter: 20,
+				isFitWidth: true
+			  }
+		});
+		
+		// filter functions
+		var filters = {};
+		// bind filter on select change
+		$('.filters-select select').on( 'change', function() {
+			var $this = $(this);
+			var filterGroup = $this.data('filter-group');
+			// set filter for group
+			filters[ filterGroup ] = $this.val();
+			// get filter value from option value
+			var filterValue = concatValues( filters ); //var filterValue = this.value;
+			$grid.isotope({ filter: filterValue });
+		});
+		
+		// flatten object by concatting values
+		function concatValues( obj ) {
+			var value = '';
+			for ( var prop in obj ) {
+				value += obj[ prop ];
+			}
+			return value;
+		}
+		
+		
+		//so isotope will display accordingly in tabs
+		$('.navbar-nav a').on('shown.bs.tab', function (e) {
+			if (e.target.hash == '#category') {
+				//for isotope
+				$('.grid').isotope('layout');
+			}
+
+			if (e.target.hash == '#Othertabs') {}
+		});
+		
+		//isotope filters will display in category section only
+		$('.filters').css('display', 'none');
+		$("#menu ul a").click(function(){
+			if ($(this).hasClass('iso_filter_none')){
+				$('.filters').css('display', 'none');
+			} else {
+				$('.filters').css('display', 'block');
+			}
+		});
+		
+		<!-- mo appear ang navbar inig abot sa banner section inig scroll -->
+		var scroll_start = 0;
+		var startchange = $('.navbar-default');
+		var offset = startchange.offset();
+		var gikan_ubos = false;
+		if (startchange.length){
+			$(document).scroll(function() { 
+				scroll_start = $(this).scrollTop();
+				if(scroll_start > offset.top) { //kung nana sa middle sa home ang scroll
+				
+					//gikan_ubos = true;
+					
+					//$('.navbar-default .navbar-nav li a').attr('style', 'color: #fff !important');
+					//$(".navbar-default").css('background-color', '#fff');
+					//$('.navbar-default .navbar-nav > li > a').css('padding-top', '0px');
+					
+					$('.navbar-default .navbar-header').find('a').addClass('nav-brand');
+					$('.navbar-default .collapse').find('ul').addClass('navbar-right');
+					$('.navbar').find('.navbar-nav').css('width', 'auto');
+					
+					$('.navbar a img').css('margin', '0');
+					$('.navbar .navbar-header a').css('max-width', '350px');
+					$('.navbar-nav > li').css('padding', '0');
+					
+					
+				
+					if ($(window).width() > 768){	
+						$('.navbar .navbar-header').css('float', 'left');
+					} else {
+						$('.navbar .navbar-header').css('float', 'none');
+					}
+				
+				} else { // kung naa pa sa top part sa home nga less than 200px(value sa offset.top)
+					//if(gikan_ubos){
+						//$('.navbar-default').removeClass('animated fadeInDown');
+						//$('.navbar-default').removeClass('animated fadeOutUp');
+						//$('.navbar-default').addClass('animated fadeOutUp');
+						//setTimeout(function(){
+							//$('.navbar-default').removeClass('animated fadeOutUp');
+							//$('.navbar-default').addClass('animated fadeIn');
+							//$('.navbar-default .navbar-nav > li > a').css('padding-top', '15px');
+							
+							
+							if ($(window).width() > 992){	
+								$('.navbar-nav > li').css('padding', '0 50px');
+							} 
+
+							$('.navbar .navbar-header a').css('max-width', '500px');
+							$('.navbar a img').css('margin', '30px auto');
+							$('.navbar .navbar-header').css('float', 'none');
+							$('.navbar').find('.navbar-nav').css('width', '100%');
+							$('.navbar-default .collapse').find('ul').removeClass('navbar-right');
+							$('.navbar-default .navbar-header').find('a').removeClass('nav-brand');
+							//$('.navbar-default').css('background-color', 'transparent');
+							//$('.navbar-default .navbar-nav li a').attr('style', 'color: rgba(0,0,0,0.8) !important');
+						//}, 700);
+						//gikan_ubos = false;
+					//}
+					
+					//$('.navbar-default').find('a.has-highlight').addClass('no-highlight').removeClass('has-highlight');
+				}
+			});
+		}
+		
+		//refresh when resize window
+		//$(window).on('resize',function(){location.reload();});
+		
+		//$(window).resize(function(){
+		//  if (window.outerWidth < 400) return false;
+		//});
+		
+	});
+	
+</script>
