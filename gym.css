@@ -292,7 +292,9 @@ body {
 		color: #fccf3e;
 	}
 	.membership_rate:hover .type:before{ /*arrow down*/
-		border-top: 15px solid #2f2f2f;
+		border-top: 20px solid #2f2f2f;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
 	}
 	.membership_rate ul {
 		/*padding-left: 80px;*/
@@ -330,9 +332,9 @@ body {
 	.membership_rate .type:before {
 		/*top: -30px;*/
 		content: "";
-		border-top: 15px solid #3a372d;
-		border-left: 15px solid transparent;
-		border-right: 15px solid transparent;
+		border-top: 20px solid #3a372d;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
 		position: relative;
 		left: 3%;
 	}
